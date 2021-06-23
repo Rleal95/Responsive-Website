@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
   <head>
-    <!-- PAGE INFOS-->
+    <!---------------------------PAGE INFOS------------------------------->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizzaria</title>
     
-    <!-- ICONS-->
+    <!-----------------------------ICONS---------------------------------->
     <link rel="stylesheet" href="assets/style.css">
-    <!-- STYLES-->
+    <!-----------------------------SWIPER---------------------------------->
+    <link 
+      rel="stylesheet" 
+      href="https://unpkg.com/swiper/swiper-bundle.min.js">
+    />
+
+    <!-----------------------------STYLES--------------------------------->
     <link rel="stylesheet" href="style.css" />
 
-    <!--Foonts-->
+    <!-----------------------------Fonts--------------------------------->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <!-----------------------------SWIPER--------------------------------->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   </head>
   <body>
     <header id="header">
       <nav id="navContainer" class="container">
         <a class="logo" href="#">Pizz<span>aria</span></a>
 
-        <!--------------Menu--------------->
+        <!-----------------------Menu--------------------------------->
         <div class="menu">
           <ul class="grid">
             <li><a class="title" href="#home">Início</a></li>
@@ -34,12 +42,13 @@
             <li><a class="title" href="#contact">Contato</a></li>
           </ul>
         </div>
-        <!-------------/Menu--------------->
+        <!------------------------------/Menu------------------------>
         <div class="toggle icon-menu"></div>
         <div class="toggle icon-cross"></div>
       </nav>
     </header>
     <main>
+        <!---------------------------HOME---------------------------------->
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -65,6 +74,7 @@
 
       <div class="divider-1"></div>
 
+      <!----------------------------ABOUT---------------------------------->
       <section class="section" id="about">
         <div class="container grid">
         <div class="image"><img src="https://images.unsplash.com/photo-1532460734809-e7f8475ca917?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=721&q=80" alt="Abrindo a massa"></div>
@@ -79,6 +89,7 @@
       </section>
       <div class="divider-2"></div>
 
+      <!---------------------------SECTION--------------------------------->
       <section class="section" id="services">
         <div class="container grid">
           <header>
@@ -86,31 +97,133 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nobis tempore officia est ea quos deserunt accusamus sit vel voluptatem culpa molestiae at quidem, voluptas labore porro. Magni, reprehenderit laudantium?
             </p>
           </header>
-          <div class="card">
+         
             <div class="card">
-              <!---Resta colocar Logo de icones-->
-              <div class="icon"></div>
+              <!-------------------Resta colocar Logo de icones--------------->
+              <i class="icon"></i>
               <h3 class="title">Vinhos</h3>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur repellat itaque minus adipisci nemo porro culpa recusandae iure, quam velit, ratione dolore sequi aliquam? Ullam atque ab dolores nam odit!</p>
             </div>
             <div class="card">
-              <!---Resta colocar Logo de icones-->
+              <!---------------------Resta colocar Logo de icones--------------->
               <div class="icon"></div>
               <h3 class="title">Pizzas</h3>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur repellat itaque minus adipisci nemo porro culpa recusandae iure, quam velit, ratione dolore sequi aliquam? Ullam atque ab dolores nam odit!</p>
             </div>
             <div class="card">
-              <!---Resta colocar Logo de icones-->
+              <!----------------------Resta colocar Logo de icones---------------->
               <div class="icon"></div>
               <h3 class="title">Sobremesas</h3>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur repellat itaque minus adipisci nemo porro culpa recusandae iure, quam velit, ratione dolore sequi aliquam? Ullam atque ab dolores nam odit!</p>
             </div>
 
-
-
           </div>
       </section>
+      
+      <div class="divider-1"></div>
+
+      <!-------------------------TESTIMONIALS------------------------------>
+      <section class="section" id="testimonials">
+        <div class="containner">
+          <header>
+          <h2 class="title">Depoimentos De quem ja experimentou</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolores dolorum, nisi perspiciatis tempore sapiente esse voluptatem temporibus eum autem pariatur, aspernatur repudiandae excepturi repellat sint sed, asperiores earum enim.
+                  </p>
+                  <cite>
+                    <img src="assets/Photo/pp.jpg" alt="Foto do cliente Ricardo">
+                    Ricardo Leal
+                  </cite>
+                </blockquote>
+              </div>
+  
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolores dolorum, nisi perspiciatis tempore sapiente esse voluptatem temporibus eum autem pariatur, aspernatur repudiandae excepturi repellat sint sed, asperiores earum enim.
+                  </p>
+                  <cite>
+                    <img src="assets/Photo/pp.jpg" alt="Foto de cliente Ricardo">
+                    Ricardo Leal
+                  </cite>
+                </blockquote>
+              </div>
+  
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolores dolorum, nisi perspiciatis tempore sapiente esse voluptatem temporibus eum autem pariatur, aspernatur repudiandae excepturi repellat sint sed, asperiores earum enim.
+                  </p>
+                  <cite>
+                    <img src="assets/Photo/pp.jpg" alt="Foto do cliente Ricardo">
+                    Ricardo Leal
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolores dolorum, nisi perspiciatis tempore sapiente esse voluptatem temporibus eum autem pariatur, aspernatur repudiandae excepturi repellat sint sed, asperiores earum enim.
+                  </p>
+                  <cite>
+                    <img src="assets/Photo/pp.jpg" alt="Foto do cliente Ricardo">
+                    Ricardo Leal
+                  </cite>
+                </blockquote>
+              </div>
+
+            </div>
+        <div class="divider-2"></div>
+
+
+            <!---------------IF WE NEDD PAGINATION------------------------->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+
+      <!---------------------------CONTACT--------------------------------->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato!</h2>
+            <p>Entre em contato conosco via plataforma de atendimento</p>
+            <a href="https://api.whatsapp.com/send?phone=5511933732094"
+            class="button"
+            target="_blank"
+            ><i class="icon-whatsapp"></i> Entrar em contato </a>
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>(11) 4231-3271</li>
+              <li><i class="icon-location"></i>Rua Manoel Augusto Ferreirinha nº240</li>
+              <li><i class="icon-instagram"></i>Pizzaria</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
     </main>
+    <!-----------------------------SWIPER---------------------------------->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-----------------------------SCROLL REVEAL JS ---------------------------------->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--------------------------MAIN JAVA SCRIPT--------------------------->
     <script src="main.js"></script>
   </body>
 </html>
